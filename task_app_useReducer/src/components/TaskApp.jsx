@@ -47,7 +47,7 @@ const TaskApp = () => {
 
   return (
     <div className="app-content">
-      <h1>task app</h1>
+      <h1>task app using useReducer</h1>
       <AddTask onAdd={handleAddTask} />
       <TaskList
         tasks={tasks}
